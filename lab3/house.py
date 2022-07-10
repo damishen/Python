@@ -79,7 +79,7 @@ def draw_house_walls(screen, color, x, y, width, height):
 
 
 def draw_house_roof(screen, color, x, y, width, height):
-    pygame.draw.polygon(screen, color, [[x, y], [x + width, y], [x + 0.5 * width, y - height]], 5)
+    pygame.draw.polygon(screen, color, [[x, y], [x + width, y], [x + 0.5 * width, y - height]])
     print('Типа рисую крышу...', x, y, width, height)
     pass
 
